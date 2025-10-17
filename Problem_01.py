@@ -104,7 +104,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("#### Simulation Settings")
-    shots = st.slider("Number of Shots", 100, 5000, 1024, help="Number of times to run the simulation")
+    shots = st.slider("Number of Shots", 100, 5000, 1000, help="Number of times to run the simulation")
     
     st.markdown("---")
     st.markdown("#### Qiskit Info")
