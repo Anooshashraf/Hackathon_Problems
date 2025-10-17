@@ -99,3 +99,25 @@ Study the results:
 Correlation strength metrics
 Entanglement verification
 State probability analysis
+
+
+🐛 Troubleshooting
+Common Issues
+
+"Module not found" errors:
+bash
+pip install --upgrade -r requirements.txt
+
+Streamlit not launching:
+bash
+python -m streamlit run Problem_01.py
+
+Qiskit version conflicts:
+bash
+pip uninstall qiskit qiskit-aer
+pip install qiskit==1.2.1 qiskit-aer==0.14.1
+
+Port already in use:
+bash
+streamlit run Problem_01.py --server.port 8502
+
