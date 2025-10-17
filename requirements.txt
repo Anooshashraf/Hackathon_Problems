@@ -1,0 +1,21 @@
+# Quantum Hackathon Requirements
+# Core Quantum Computing
+qiskit==1.2.1
+qiskit-aer==0.14.1
+qiskit-ibm-runtime==0.22.1
+
+# UI Framework
+streamlit==1.36.0
+
+# Scientific Computing
+numpy==1.26.4
+scipy==1.13.0
+
+# Visualization
+matplotlib==3.8.4
+plotly==5.21.0
+seaborn==0.13.2
+
+# Additional Utilities
+pandas==2.2.2
+pillow==10.3.0
