@@ -1,6 +1,5 @@
 # ==========================================
 # Problem 1 – Quantum Communication Simulator
-# Modern UI Version - FIXED
 # ==========================================
 
 import streamlit as st
