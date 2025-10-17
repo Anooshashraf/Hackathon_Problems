@@ -1,123 +1,109 @@
-Quantum Hackathon Simulator Suite
-A collection of three interactive quantum computing simulations built with Qiskit and Streamlit, featuring beautiful modern UIs for exploring quantum phenomena.
+# 🌌 Quantum Hackathon Simulator Suite
 
-🚀 Features
-Problem 1: Quantum Communication Simulator
+A collection of three **interactive quantum computing simulations** built with **Qiskit** and **Streamlit**, featuring modern, visually engaging UIs to explore key quantum phenomena — **superposition, entanglement, and quantum communication**.
 
-Entanglement-based communication using Bell states
-Interactive gate operations (H, X, Z, Identity)
-Real-time circuit visualization and measurement results
-Quantum state analysis with probability distributions
+![Quantum Computing](https://img.shields.io/badge/Quantum-Computing-blue)
+![Qiskit](https://img.shields.io/badge/Built%20with-Qiskit-purple)
+![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 
-Problem 2: Quantum Coin Game
+---
 
-Quantum vs Classical strategy comparison
-Interactive game simulation with referee moves
-Win/loss tracking and statistics
-Real-time performance analysis
+## 🚀 Features
 
-Problem 3: Quantum Correlation Explorer
+### 🔗 Problem 1: Quantum Communication Simulator
+- **Entanglement-based communication** using Bell states  
+- **Interactive gate operations** (H, X, Z, Identity)  
+- **Real-time circuit visualization** and measurement results  
+- **Quantum state analysis** with probability distributions  
+- **Beautiful, modern Streamlit UI** with intuitive controls  
 
-Advanced entanglement experiments with configurable gates
-Correlation strength measurement and analysis
-Multiple rotation gates (H, S, T, X, Y, Z)
-Entanglement verification and quantum insights
+### 🪙 Problem 2: Quantum Coin Game
+- **Quantum vs Classical strategy** comparison  
+- **Interactive game simulation** with referee moves  
+- **Win/loss tracking** and performance statistics  
+- **Dynamic visualization of outcomes**  
+- **Smart strategy insights** based on results  
 
-🛠️ Installation
+### 🔬 Problem 3: Quantum Correlation Explorer
+- **Advanced entanglement experiments** with configurable gates  
+- **Correlation strength measurement** and visual analysis  
+- **Multiple rotation gates** (H, S, T, X, Y, Z)  
+- **Entanglement verification tools**  
+- **Customizable circuit builder**  
 
-Prerequisites
+---
 
-Python 3.8 or higher
-pip (Python package manager)
+## 🛠️ Installation
 
-Quick Setup
+### Prerequisites
+- 🐍 Python **3.8 or higher**  
+- 📦 `pip` (Python package manager)  
+- 💾 Minimum **4GB RAM** (8GB recommended)  
+- ⚙️ **500MB** free disk space  
 
-Clone or download the project files to your local machine:
-C:\Users\Desktop\hackathon-problems\Hackathon_problems
+---
 
-Install required packages:
+### ⚡ Quick Setup
 
-cd C:\Users\DR\Desktop\hackathon_problems\Hackathon_Problems
-pip install -r requirements.txt
+1. **Navigate to the project directory:**
+   ```bash
+   cd C:\Users\DR\Desktop\hackathon_problems\Hackathon_Problems
+  
 
-Run individual simulations:
+2. **Installation:**
+    ```bash
+    pip install -r requirements.txt
 
-# Problem 1: Quantum Communication
-streamlit run Problem_01.py
+3. **Run individual simulations:**
+    ```bash
+    # Problem 1: Quantum Communication
+    streamlit run Problem_01.py
 
-# Problem 2: Quantum Coin Game  
-streamlit run Problem_02.py
+    # Problem 2: Quantum Coin Game  
+    streamlit run Problem_02.py
 
-# Problem 3: Quantum Correlation Explorer
-streamlit run Problem_03.py
+    # Problem 3: Quantum Correlation Explorer
+    streamlit run Problem_03.py
 
 📁 Project Structure
+  ```bash
+      Hackathon_Problems/
+    ├── Problem_01.py              # Quantum Communication Simulator
+    ├── Problem_02.py              # Quantum Coin Game
+    ├── Problem_03.py              # Quantum Correlation Explorer
+    ├── requirements.txt           # Python dependencies
+    └── README.md                  # Project documentation
+```
+🎯 Detailed Usage Guide
+🔗 Problem 1: Quantum Communication Simulator
 
-Hackathon_Problems/
-├── Problem_01.py          # Quantum Communication Simulator
-├── Problem_02.py          # Quantum Coin Game
-├── Problem_03.py          # Quantum Correlation Explorer
-├── requirements.txt       # Python dependencies
-└── README.md             # This file
+Step-by-Step Instructions:
 
-🎯 Usage Guide
+Run:
+  ```bash
+  streamlit run Problem_01.py
+```
+###In the sidebar, select Alice's quantum operation:
+- H Gate: Creates quantum superposition
+- X Gate: Performs bit-flip operation
+- Z Gate: Applies phase-flip
 
-Problem 1: Quantum Communication
+###Identity: No operation (control case)
 
-Select Alice's operation from the sidebar (H, X, Z, or Identity gate)
-Adjust simulation shots for measurement precision
-Click "Run Quantum Simulation" to execute
+- Adjust number of shots (100–5000) for precision.
+- Click Run Quantum Simulation.
 
-Analyze results:
+###You’ll See:
+- 🧩 Quantum Circuit Diagram
+- 📊 Measurement Histogram
+- 🌀 State Probabilities
+- 🧠 Quantum Insights
 
-View quantum circuit diagram
-See measurement histogram
-Check state probabilities
-Read quantum correlation insights
+###Key Learning Points:
 
-Problem 2: Quantum Coin Game
+- Understand quantum entanglement for secure communication
+- Observe instant correlation between Alice and Bob
+- Learn quantum measurement and state collapse
 
-Choose your strategy: Quantum (H gate) or Classical (no gate)
-Set number of games to play (1-10)
-Click "Play Quantum Coin Game" to start
-
-Track your performance:
-Individual game results
-Win/loss statistics
-Strategy recommendations
-Circuit visualization
-
-Problem 3: Quantum Correlation Explorer
-
-Configure entanglement with H and CNOT gates
-Add rotations to qubits 0 and 1
-Set measurement shots for accuracy
-Click "Explore Quantum Correlations"
-
-Study the results:
-
-Correlation strength metrics
-Entanglement verification
-State probability analysis
-
-
-🐛 Troubleshooting
-Common Issues
-
-"Module not found" errors:
-bash
-pip install --upgrade -r requirements.txt
-
-Streamlit not launching:
-bash
-python -m streamlit run Problem_01.py
-
-Qiskit version conflicts:
-bash
-pip uninstall qiskit qiskit-aer
-pip install qiskit==1.2.1 qiskit-aer==0.14.1
-
-Port already in use:
-bash
-streamlit run Problem_01.py --server.port 8502
 
